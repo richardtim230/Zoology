@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: #2e7d32;
+  overflow-x: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #81c784, #66bb6a);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: #1b5e20;
+  border-bottom: 5px solid #388e3c;
+}
+
+.header h1 {
+  font-size: 2.0rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.0rem;
+  margin: 0;
+}
+
+.department-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.courses-list {
+  margin: 20px 0;
+}
+
+.courses-list h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2e7d32;
+  border-bottom: 3px solid #388e3c;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: linear-gradient(145deg, #a5d6a7, #81c784);
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background 0.3s;
+  border-left: 5px solid #388e3c;
+}
+
+.course-card h3 {
+  margin: 0 0 10px;
+  color: #1b5e20;
+}
+
+.course-card .preview {
+  font-size: 0.95rem;
+  color: #2e7d32;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(145deg, #81c784, #66bb6a);
+}
+
+.course-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.course-details {
+  margin-top: 15px;
+  padding: 15px;
+  background: #81c784;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-left: 5px solid #388e3c;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, #388e3c, #66bb6a);
+  color: #fff;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #66bb6a, #388e3c);
+}
